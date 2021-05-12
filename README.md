@@ -1,8 +1,8 @@
-### AmeriFlux_Coupling-tree-growth-and-carbon-uptake
+# AmeriFlux_Coupling-tree-growth-and-carbon-uptake
 
-### Description of code
+# Description of code
 
-# The code ("AmeriFlux_woodyNPP_corMat.R") will import and plot data used for the 2021 submission to New Phytologist titled "Coupling of tree growth and carbon uptake in six North American forests". The majority of the code is a large for loop that generates correlation matrices. Correlation matrices (as presented in Fig. 1) can be used to identify the temporal periods of carbon uptake with the strongest correlations to woody NPP. This has been done previously in studies linking carbon uptake with tree woody NPP to find sub-annual integrals of carbon uptake most strongly correlated to woody NPP (Babst et al., 2014b; Lagergren et al., 2019). Moving windows of carbon uptake integrations can be used to identify relationships that might not be apparent based on calendar-year integrals. Using this approach allows us to connect our results to our competing hypotheses (see Fig. 1) and visualize the relationship between numerous periods of carbon uptake woody NPP simultaneously.
+#### The code ("AmeriFlux_woodyNPP_corMat.R") will import and plot data used for the 2021 submission to New Phytologist titled "Coupling of tree growth and carbon uptake in six North American forests". The majority of the code is a large for loop that generates correlation matrices. Correlation matrices (as presented in Fig. 1) can be used to identify the temporal periods of carbon uptake with the strongest correlations to woody NPP. This has been done previously in studies linking carbon uptake with tree woody NPP to find sub-annual integrals of carbon uptake most strongly correlated to woody NPP (Babst et al., 2014b; Lagergren et al., 2019). Moving windows of carbon uptake integrations can be used to identify relationships that might not be apparent based on calendar-year integrals. Using this approach allows us to connect our results to our competing hypotheses (see Fig. 1) and visualize the relationship between numerous periods of carbon uptake woody NPP simultaneously.
 
 
 
