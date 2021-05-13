@@ -8,13 +8,13 @@
 
 ### Description of datasets
 
-#### "woodyNPP_newphyt.csv" is the annual woody NPP estimated from diameter reconstructions of trees in randomly allocated forest plots 
+### "woodyNPP_newphyt.csv" is the annual woody NPP estimated from diameter reconstructions of trees in randomly allocated forest plots 
 ######       "site" : US.Bar = Bartlett Experimental Forest, NH; US.Ho1 = Howland Forest, ME; US.Ha1 = Harvard Forest; US.MMS = Morgan Monroe State Forest, IN; US.NR1 = Niwot Ridge, CO; and US.UMB = University of Michigan Biological Station, MI
 ######       "year" : year of biomass growth
 ######       "inc" : woody biomass increment (reported in grams of carbon m-2)
 ######       "sd" : standard deviation of 1000 Monte Carlo simulations of tree plots
 
-#### "daily_carbon_uptake.csv" is the gap-filled and partioned eddy covariance data daily 
+### "daily_carbon_uptake.csv" is the gap-filled and partioned eddy covariance data daily 
 ######       "site" : US.Bar = Bartlett Experimental Forest, NH; US.Ho1 = Howland Forest, ME; US.Ha1 = Harvard Forest; US.MMS = Morgan Monroe State Forest, IN; US.NR1 = Niwot Ridge, CO; and US.UMB = University of Michigan Biological Station, MI
 ######       "year" : year of measurement
 ######       "doy" : day of measurement (reported in day of year, 1-365) 
@@ -30,7 +30,7 @@
 
 
 
-#### "monthly_climate_newphyt.csv" is the monthly climate data for each site 
+### "monthly_climate_newphyt.csv" is the monthly climate data for each site 
 ######       "site" : US.Bar = Bartlett Experimental Forest, NH; US.Ho1 = Howland Forest, ME; US.Ha1 = Harvard Forest; US.MMS = Morgan Monroe State Forest, IN; US.NR1 = Niwot Ridge, CO; and US.UMB = University of Michigan Biological Station, MI
 ######       "year" : year of measurement
 ######       "month" : month of measurement (1-12 corresponding to Jan-Dec)
