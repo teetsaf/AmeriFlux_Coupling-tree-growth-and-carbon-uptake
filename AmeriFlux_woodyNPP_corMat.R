@@ -21,7 +21,7 @@ library(boot)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 ### import biometric data
-biom=read.csv('woodyNPP_newphyt.csv')
+biom=read.csv('woodyNPP.csv')
 head(biom)
 biom_dt=data.table(biom[,1:3])
 
@@ -31,7 +31,7 @@ ggplot(biom_dt,aes(x=year,y=inc))+
   facet_wrap(~site)
 
 ### import daily eddy covariance data
-dayflux=read.csv('daily_carbon_uptake_newphyt.csv')
+dayflux=read.csv('daily_carbon_uptake.csv')
 dayflux$date <- as.Date(with(dayflux, paste(year,doy,sep="-")), "%Y-%j")
 dayflux$month = as.integer(format(dayflux$date,"%m"))
 dayflux=subset(dayflux,dayflux$doy<366 & dayflux$year<2018)
@@ -55,7 +55,7 @@ monthflux
 
 
 ### import monthly climate data
-clim=read.csv('monthly_climate_newphyt.csv')
+clim=read.csv('monthly_climate.csv')
 clim$date <- as.Date(with(clim, paste(year,month,"01",sep="-")), "%Y-%m-%d")
 head(clim)
 
