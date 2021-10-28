@@ -2,7 +2,7 @@
 
 #####
 ##### Monthly correlation matrix  
-##### Annual variable (woody biomass increment) vs. monthly variables (NEP, GPP)
+##### Annual variable (wood biomass increment) vs. monthly variables (NEP, GPP)
 ##### 
 ##### Code written by Aaron Teets with help from Bijan Seyednasrollah
 ##### May 2021
@@ -21,7 +21,7 @@ library(boot)
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 ### import biometric data
-biom=read.csv('woodyNPP.csv')
+biom=read.csv('wood_biomass_inc.csv')
 head(biom)
 biom_dt=data.table(biom[,1:3])
 
@@ -441,13 +441,13 @@ CM$site=factor(CM$site,levels=c('US-NR1','US-Ho1','US-Bar','US-UMB','US-Ha1','US
 
 
 ### save for loop output
-save(CM,file='AmeriFlux_woodyNPP_corr_mat.Rdata')
+save(CM,file='AmeriFlux_biometric_corr_mat.Rdata')
 
 ### or
 
 ### load for loop output
 
-load('AmeriFlux_woodyNPP_corr_mat.Rdata')
+load('AmeriFlux_biometric_corr_mat.Rdata')
 
 
 
