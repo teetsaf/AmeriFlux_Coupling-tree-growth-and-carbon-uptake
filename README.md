@@ -2,16 +2,16 @@
 
 ### Description of code
 
-##### The code ("AmeriFlux_woodyNPP_corMat.R") will import and plot data used for the 2021 submission to JGR Biogeosciences titled "Coupling of tree growth and carbon uptake in six North American forests". The majority of the code is a large for loop that generates correlation matrices. Correlation matrices (as presented in Fig. 1) can be used to identify the temporal periods of carbon uptake with the strongest correlations to woody NPP. This has been done previously in studies linking carbon uptake with tree woody NPP to find sub-annual integrals of carbon uptake most strongly correlated to woody NPP (Babst et al., 2014b; Lagergren et al., 2019). Moving windows of carbon uptake integrations can be used to identify relationships that might not be apparent based on calendar-year integrals. Using this approach allows us to connect our results to our competing hypotheses (see Fig. 1) and visualize the relationship between numerous periods of carbon uptake woody NPP simultaneously.
+##### The code ("AmeriFlux_biometric_corMat.R") will import and plot data used for the 2021 submission to JGR Biogeosciences titled "Coupling of tree growth and carbon uptake in six North American forests". The majority of the code is a large for loop that generates correlation matrices. Correlation matrices (as presented in Fig. 1) can be used to identify the temporal periods of carbon uptake with the strongest correlations to wood biomass increment (WBI). This has been done previously in studies linking carbon uptake with tree WBI to find sub-annual integrals of carbon uptake most strongly correlated to WBI (Babst et al., 2014b; Lagergren et al., 2019). Moving windows of carbon uptake integrations can be used to identify relationships that might not be apparent based on calendar-year integrals. Using this approach allows us to connect our results to our competing hypotheses (see Fig. 1) and visualize the relationship between numerous periods of carbon uptake WBI simultaneously.
 
 
 
 ### Description of datasets
 
-### "woodyNPP.csv" is the annual woody NPP estimated from diameter reconstructions of trees in randomly allocated forest plots 
+### "wood_biomass_inc.csv" is the annual wood biomass increment estimated from diameter reconstructions of trees in randomly allocated forest plots 
 ######       "site" : US.Bar = Bartlett Experimental Forest, NH; US.Ho1 = Howland Forest, ME; US.Ha1 = Harvard Forest; US.MMS = Morgan Monroe State Forest, IN; US.NR1 = Niwot Ridge, CO; and US.UMB = University of Michigan Biological Station, MI
 ######       "year" : year of biomass growth
-######       "inc" : woody biomass increment (reported in grams of carbon m-2)
+######       "inc" : wood biomass increment (reported in grams of carbon m-2)
 ######       "sd" : standard deviation of 1000 Monte Carlo simulations of tree plots
 
 ### "daily_carbon_uptake.csv" is the gap-filled and partioned eddy covariance data daily 
